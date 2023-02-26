@@ -65,7 +65,7 @@ function RecipeCreate({ createRecipe }) {
                 name="name"
                 id="name"
                 type="text"
-                defaultValue="Name"
+                placeholder="Name"
                 required
                 onChange={handleChangeName}
               />
@@ -75,7 +75,7 @@ function RecipeCreate({ createRecipe }) {
                 name="cuisine"
                 id="cuisine"
                 type="text"
-                defaultValue="Cuisine"
+                placeholder="Cuisine"
                 required
                 onChange={handleChangeCuisine}
               />
@@ -85,7 +85,7 @@ function RecipeCreate({ createRecipe }) {
                 name="photo"
                 id="photo"
                 type="url"
-                defaultValue="URL"
+                placeholder="URL"
                 required
                 onChange={handleChangePhoto}
               />
@@ -94,7 +94,7 @@ function RecipeCreate({ createRecipe }) {
               <textarea
                 name="ingredients"
                 id="ingredients"
-                defaultValue="Ingredients"
+                placeholder="Ingredients"
                 required
                 onChange={handleChangeIngredients}
               />
@@ -103,7 +103,7 @@ function RecipeCreate({ createRecipe }) {
             <td>
               <textarea
                 name="preparation"
-                defaultValue="Preparation"
+                placeholder="Preparation"
                 required
                 onChange={handleChangePreparation}
               />
